@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>nhentai by tag randomizer</title>
+    <title>nhentai random by tag</title>
     <meta name="robots" content="index, nofollow">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Norkiert">
@@ -18,12 +18,13 @@
         
     </nav>
     <div class= "navi">
-        <input id="tagi" required="yes" type="search" name="q" value="" autofocus autocapitalize="none" placeholder="e.g. big-breasts -rape">
+        <input id="tagi" autocomplete="off" required="yes" type="search" name="q" value="" autofocus autocapitalize="none" placeholder="e.g. big-breasts -rape">
         <button id="karakan" onclick="randomizer()">Randomize</button>
     </div>
     <div class="disp">
         <a id="link"></a><br>
-        <img id="cover">
+        <a id="imglink">
+        <img id="cover"></a>
     </div>
     <!--
             Running thanks to https://www.npmjs.com/package/shentai, and

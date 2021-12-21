@@ -63,6 +63,9 @@ button {
     border: 0;
     margin-left: -4px;
 }
+button:hover {
+    background-color: #f05075;
+}
 #link {
     font-size: 3em;
     color: #ed2553;
